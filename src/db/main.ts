@@ -120,7 +120,10 @@ export const ProjectsData = {
         "JavaScript,",
         "CSS,",
         "HTML,",
-        "GitHub Pages",
+        "GitHub Pages,",
+        "State Management,",
+        "Data Binding,",
+        "Lifecycle",
       ],
       description:
         "Most modern calendar apps are cluttered with features, making it hard to focus on your most important daily tasks. iCalendify is a minimalist calendar app designed to simplify your scheduling experience. With a clean interface and intuitive design, it lets you quickly note down the most important tasks each day, saving all events locally which can be accessed at any time. The app was built from scratch using vanilla JavaScript.",
