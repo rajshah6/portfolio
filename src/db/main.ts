@@ -153,6 +153,7 @@ export const ProjectsData = {
         "CSS,",
         "React,",
         "Node.js,",
+        "Next.js,",
         "Firebase,",
         "GitHub Pages",
       ],
