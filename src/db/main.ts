@@ -150,7 +150,7 @@ export const ProjectsData = {
         "GitHub Pages",
       ],
       description:
-        "Hey it looks like you're already here! This portfolio website was built using TypeScript, React, and CSS. It showcases my interests, projects, and skills, designed to be responsive and user-friendly! The site is open-source and hosted on GitHub Pages.",
+        "Hey it looks like you're already here! This portfolio website was built using TypeScript, CSS, and Firebase. It showcases my interests, projects, and skills, designed to be responsive and user-friendly! The site is open-source and hosted on GitHub Pages.",
       demoUrl: "https://rajshah6.github.io",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
     },
