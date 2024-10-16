@@ -33,6 +33,7 @@
     "@iconify/react": "4.1.0",
     "@svgr/webpack": "8.0.1",
     "@types/react-scroll": "1.8.7",
+    "gh-pages": "^6.2.0",
     "sass": "1.62.1"
   }
 }
