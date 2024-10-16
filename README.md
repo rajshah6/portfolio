@@ -5,9 +5,11 @@ Open-source website built using React framework and Firebase for deployment. The
 ## 🛠️ Installation
 
 1. Install dependencies
+
    ```bash
    pnpm install
 
-2. Initiate the server
-```bash
-pnpm run dev
+3. Initiate the server
+   
+   ```bash
+   pnpm run dev
