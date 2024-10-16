@@ -4,6 +4,7 @@ import myImage from "../../public/images/waterloo.png";
 import alopeciaImg from "../../public/images/alopecia.png";
 import groceryImg from "../../public/images/grocery.png";
 import icalendifyImg from "../../public/images/icalendify.png";
+import dealornodealImg from "../../public/images/dealornodeal.png";
 
 export const heroData = {
   img: myImage,
@@ -186,6 +187,19 @@ export const ProjectsData = {
 
       demoUrl: "https://rajshah6.github.io/alopecia-areata/",
       codeUrl: "https://github.com/rajshah6/alopecia-areata",
+    },
+    {
+      name: "Deal or No Deal", 
+      image: dealornodealImg,
+      technologies: [
+        "Python,",
+        "Tkinter",
+      ],
+      description:
+        "Deal or No Deal is a classic game show that has captivated audiences worldwide. This Python application brings the excitement of the game to your computer, challenging you to make strategic decisions and test your luck. With a sleek Tkinter interface, the game offers an engaging experience that mirrors the thrill of the original show.",
+
+      demoUrl: "",
+      codeUrl: "https://github.com/rajshah6/deal-or-no-deal",
     },
   ],
 };
