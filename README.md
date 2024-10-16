@@ -1,6 +1,5 @@
 # rajshah6.github.io
 
-[rajshah6](https://rajshah6.github.io/)
 🔊 Put your volume up for an optimal experience!
 
 
