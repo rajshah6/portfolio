@@ -150,6 +150,7 @@ export const ProjectsData = {
       technologies: [
         "TypeScript,",
         "JavaScript,",
+        "HTML,",
         "CSS,",
         "React,",
         "Node.js,",
