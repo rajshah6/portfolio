@@ -20,9 +20,6 @@ export default function RootLayout({
         <meta name="description" content="Portfolio Website" />
         <title>Raj Shah</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        {/* You can also use a PNG format like this:
-            <link rel="icon" href="/favicon.png" type="image/png" /> 
-        */}
       </head>
       <body className={quicksand.className}>
         <main className={styles.layout}>
