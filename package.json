@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rajshah6.github.io/rajshah6.github.io",
+  "homepage": "https://rajshah6.github.io/",
   "private": true,
   "scripts": {
-    "predeploy": "pnpm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
