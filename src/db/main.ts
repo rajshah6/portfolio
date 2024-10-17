@@ -1,4 +1,4 @@
-import schoolsphereImg from "../../public/images/schoolsphere.png";
+import schoolsphereImg from "../../images/schoolsphere.png";
 import portfolioImg from "../../public/images/portfolio.png";
 import myImage from "../../public/images/waterloo.png";
 import alopeciaImg from "../../public/images/alopecia.png";
