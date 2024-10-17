@@ -1,10 +1,10 @@
-import schoolsphereImg from "https://rajshah6.github.io/images/schoolsphere.png";
-import portfolioImg from "https://rajshah6.github.io/images/portfolio.png";
-import myImage from "https://rajshah6.github.io/images/waterloo.png";
-import alopeciaImg from "https://rajshah6.github.io/images/alopecia.png";
-import groceryImg from "https://rajshah6.github.io/images/grocery.png";
-import icalendifyImg from "https://rajshah6.github.io/images/icalendify.png";
-import dealornodealImg from "https://rajshah6.github.io/images/dealornodeal.png";
+import schoolsphereImg from "../../public/images/schoolsphere.png";
+import portfolioImg from "../../public/images/portfolio.png";
+import myImage from "../../public/images/waterloo.png";
+import alopeciaImg from "../../public/images/alopecia.png";
+import groceryImg from "../../public/images/grocery.png";
+import icalendifyImg from "../../public/images/icalendify.png";
+import dealornodealImg from "../../public/images/dealornodeal.png";
 
 export const heroData = {
   img: myImage,
