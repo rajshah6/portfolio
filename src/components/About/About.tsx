@@ -3,7 +3,9 @@ import { aboutData } from "@/db/main";
 import { Variants, motion } from "framer-motion";
 import React from "react";
 import styles from "../../styles/components/About.module.scss";
+
 type AboutProps = {};
+
 const containerVariants: Variants = {
   animate: {
     transition: {
@@ -11,6 +13,7 @@ const containerVariants: Variants = {
     },
   },
 };
+
 const childrenVariants: Variants = {
   initial: {
     opacity: 0,
@@ -26,6 +29,28 @@ const childrenVariants: Variants = {
     },
   },
 };
+
+const AboutCard: React.FC<{ title: string; text: string }> = ({ title, text }) => {
+  // Replace the word 'SHAD' with a hyperlink
+  const formattedText = text.replace(
+    'SHAD',
+    `<a class='link' href='https://www.shad.ca' target='_blank' rel='noopener noreferrer'>SHAD</a>`
+  );
+
+  return (
+    <motion.div
+      variants={childrenVariants}
+      className={`${styles.about_container_card}`}
+    >
+      <h3 className={`${styles.about_container_card_title}`}>{title}</h3>
+      <p
+        className={`${styles.about_container_card_text}`}
+        dangerouslySetInnerHTML={{ __html: formattedText }} // Use dangerouslySetInnerHTML to render the HTML with the hyperlink
+      />
+    </motion.div>
+  );
+};
+
 const About: React.FC<AboutProps> = () => {
   return (
     <div className={`${styles.about}`} id="about">
@@ -38,20 +63,12 @@ const About: React.FC<AboutProps> = () => {
         className={`${styles.about_container}`}
       >
         {aboutData.cards.map((card, i) => (
-          <motion.div
-            variants={childrenVariants}
-            key={i}
-            className={`${styles.about_container_card}`}
-          >
-            <h3 className={`${styles.about_container_card_title}`}>
-              {card.title}
-            </h3>
-            <p className={`${styles.about_container_card_text}`}>{card.text}</p>
-          </motion.div>
+          <AboutCard key={i} title={card.title} text={card.text} />
         ))}
       </motion.div>
       <div className={`${styles.about_circle1}`}></div>
     </div>
   );
 };
+
 export default About;

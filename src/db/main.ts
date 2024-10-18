@@ -21,7 +21,7 @@ export const aboutData = {
   cards: [
     {
       title: "How Did I Get Here?",
-      text: "My journey began when I was 12 years old, sparked by a fascination with problem-solving and technology. From leading teams at SHAD to creating cutting-edge projects, each experience has honed my skills and deepened my passion for driving impact through code and leadership.",
+      text: `My journey began when I was 12 years old, sparked by a fascination with problem-solving and technology. From leading teams at SHAD to creating cutting-edge projects, each experience has honed my skills and deepened my passion for driving impact through code and leadership.`,
     },
     {
       title: "Who Am I Today?",
