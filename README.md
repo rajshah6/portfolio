@@ -34,4 +34,19 @@ pnpm run dev
 ```
 
 **Access the Application**
+
 Open your browser and navigate to `http://localhost:3000` to view your application.
+
+## 🚀 Building and Running for Production
+
+To generate a full static production build, run the following command:
+
+```bash
+pnpm run build
+```
+
+Once the build is complete, you can preview the site as it will appear once deployed by using:
+
+```bash
+pnpm run deploy
+```
