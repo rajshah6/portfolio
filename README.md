@@ -4,7 +4,7 @@
 
 </div>
 
-🔊 **Turn your volume up for an optimal experience!**
+### 🔊 Turn your volume up for an optimal experience!
 
 This is an open-source website built using the **React** framework and deployed with **Vercel** using **Next.js**. The frontend design and UI/UX was inspired by Raycast.com
 
