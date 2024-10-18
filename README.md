@@ -4,20 +4,34 @@
 
 </div>
 
+🔊 **Turn your volume up for an optimal experience!**
 
-## 🔊 Turn your volume up for an optimal experience!
+This is an open-source website built using the **React** framework and deployed with **Vercel** using **Next.js**. The frontend design and UI/UX was inspired by [Raycast.com](https://raycast.com).
 
+## 🌐 View the Website
+To check out the website, click the [link](https://rajshah.vercel.app/)
 
-Open-source website built using React framework and Vercel (using Next.js) for deployment. The frontend design and UI/UX was inspired by Raycast.com. To view the website, click the [link](https://rajshah.vercel.app/) or follow the instructions to run locally.
+## 🛠️ Installation Instructions
 
-## 🛠️ Installation
+Follow these steps to run the project locally:
 
-1. Install dependencies
-
+1. **Clone the Repository**
    ```bash
-   pnpm install
+   git clone https://github.com/rajshah6/rajshah6.github.io
+   cd rajshah6.github.io
+   ```
 
-3. Initiate the server
-   
-   ```bash
-   pnpm run dev
+2.	**Install Dependencies**
+Use the following command to install the required packages:
+```bash
+pnpm install
+```
+
+3.	**Initiate the Server**
+Start the development server with:
+```bash
+pnpm run dev
+```
+
+4.	**Access the Application**
+Open your browser and navigate to `http://localhost:3000` to view your application.
