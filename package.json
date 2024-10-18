@@ -4,8 +4,8 @@
   "homepage": "https://rajshah6.github.io/",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --nojekyll --cname https://rajshah6.github.io/",
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
