@@ -246,12 +246,12 @@ const Hero: React.FC<HeroProps> = () => {
               variants={imageVariants}
               className={`${styles.hero_right_container_imgContainer_image}`}
               src={heroData.img.src}
-              alt={"Muhammad's image"}
+              alt={"Raj's image"}
             /> */}
             <Image
               className={`${styles.hero_right_container_imgContainer_image}`}
               src={heroData.img}
-              alt={"Muhammad's image"}
+              alt={"Raj's image"}
               priority
             />
           </motion.div>
