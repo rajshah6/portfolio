@@ -50,6 +50,8 @@ export const SkillsData = {
         "CSS",
         "Racket",
         "Scheme",
+        "R",
+        "SQL",
       ],
     },
     {

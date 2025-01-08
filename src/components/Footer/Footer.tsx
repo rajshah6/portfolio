@@ -59,7 +59,7 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
       <div className={`${styles.footer_textContainer}`}>
         <Icon icon={"uiw:copyright"} />
-        <p>2024 Raj Shah. All Rights Reserved</p>
+        <p>2025 Raj Shah. All Rights Reserved</p>
       </div>
     </div>
   );
