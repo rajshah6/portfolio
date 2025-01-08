@@ -167,7 +167,7 @@ export const ProjectsData = {
         "Vercel",
       ],
       description:
-        "Hey it looks like you're already here! This portfolio website was built using React, Next.js, and Firebase. It showcases my interests, projects, and skills, designed to be responsive and user-friendly! The site is open-source and hosted on Vercel.",
+        "Hey it looks like you're already here! The application utilizes Next.js for server-side rendering and dynamic routing, which significantly enhances SEO and reduces page load times. Additionally, I integrated Firebase to provide real-time database functionality, enabling seamless updates to portfolio content without the need for redeployment.",
       demoUrl: "https://rajshah.vercel.app/",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
     },
