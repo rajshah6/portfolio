@@ -58,8 +58,10 @@ export const SkillsData = {
       title: "Frameworks & Libraries",
       skills: [
         "React",
+        "Svelte",
         "Next.js",
         "Node.js",
+        "Vite",
         "Apache",
         "PyTorch",
         "Flutter",
@@ -73,6 +75,7 @@ export const SkillsData = {
       title: "Tools & Technologies",
       skills: [
         "Git",
+        "npm",
         "Firebase",
         "Vercel",
         "D3.js",
