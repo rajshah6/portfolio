@@ -5,6 +5,7 @@ import alopeciaImg from "../../public/images/alopecia.png";
 import groceryImg from "../../public/images/grocery.png";
 import icalendifyImg from "../../public/images/icalendify.png";
 import dealornodealImg from "../../public/images/dealornodeal.png";
+import pathvisorImg from "../../public/images/pathvisor.gif";
 
 export const heroData = {
   img: myImage,
@@ -124,6 +125,25 @@ export const contactData = {
 export const ProjectsData = {
   title: "Projects",
   Projects: [
+    {
+      name: "PathVisor",
+      image: pathvisorImg,
+      technologies: [
+        "Svelte,",
+        "Node.js,",
+        "Vite,",
+        "TypeScript,",
+        "JavaScript,",
+        "HTML,",
+        "CSS,",
+        "Git,",
+        "Vercel,",
+      ],
+      description:
+        "PathVisor is an interactive app that brings pathfinding algorithms to life! Designed for students, educators, and graph theory enthusiasts, it offers a hands-on way to explore Dijkstra’s Algorithm, A*, Breadth First Search, and Depth First Search. With its intuitive grid interface, real-time animations, and step-by-step analysis, PathVisor makes learning fun and accessible. Customize scenarios, experiment with algorithm speed, and gain deeper insights into the decision-making processes of these powerful tools.",
+      demoUrl: "https://pathvisor.vercel.app",
+      codeUrl: "https://github.com/rajshah6/pathfinding-visualizer",
+    },
     {
       name: "iCalendify",
       image: icalendifyImg,
