@@ -14,7 +14,7 @@ export const heroData = {
   expertise: ["Full-Stack Developer", "Web Designer"],
   about:
     "I'm a passionate Software Developer, currently studying Computer Science at the University of Waterloo. I love building things that live on the internet, whether that be websites, applications, or anything in between. Let’s push boundaries and build groundbreaking experiences together!",
-  btnText: "View my resume",
+  btnText: " View My Resume",
 };
 
 export const aboutData = {
@@ -137,7 +137,7 @@ export const ProjectsData = {
         "HTML,",
         "CSS,",
         "Git,",
-        "Vercel,",
+        "Vercel",
       ],
       description:
         "PathVisor is an interactive app that brings pathfinding algorithms to life! Designed for students, educators, and graph theory enthusiasts, it offers a hands-on way to explore Dijkstra’s Algorithm, A*, Breadth First Search, and Depth First Search. With its intuitive grid interface, real-time animations, and step-by-step analysis, PathVisor makes learning fun and accessible. Customize scenarios, experiment with algorithm speed, and gain deeper insights into the decision-making processes of these powerful tools.",

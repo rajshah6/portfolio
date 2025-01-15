@@ -167,6 +167,7 @@ const Hero: React.FC<HeroProps> = () => {
           className={`${styles.hero_left_container}`}
         >
           <div className={`${styles.hero_left_container_text}`}>
+            
             <motion.span
               variants={textChildrenVariants}
               className={`${UI.lightText}`}
@@ -217,7 +218,9 @@ const Hero: React.FC<HeroProps> = () => {
               logEvent(getAnalytics(), `Resume hero`);
             }}
           >
+            <Icon icon={"ph:arrow-square-out-light"} />
             {heroData.btnText}
+            
           </motion.a>
         </motion.div>
         <motion.div
