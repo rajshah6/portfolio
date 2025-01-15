@@ -69,6 +69,7 @@ export const SkillsData = {
         "Angular",   
         "Tkinter",
         "PyGame",
+        "Bootstrap",
       ],
     },
     {
