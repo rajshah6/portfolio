@@ -209,7 +209,7 @@ export const ProjectsData = {
       ],
       description:"This basic calculator app is a backend focuses tool for performing arithmetic operations including addition, subtraction, multiplication, and division. Featuring functionality similar to the iPhone calculator app pre-iOS 18, it supports formatted outputs and allows users to perform multiple calculations seamlessly, making it an ideal solution for everyday use.",
 
-      demoUrl: "calculator-react-fawn-ten.vercel.app/",
+      demoUrl: "https://calculator-react-fawn-ten.vercel.app/",
       codeUrl: "https://github.com/rajshah6/calculator-react",
     },
 
