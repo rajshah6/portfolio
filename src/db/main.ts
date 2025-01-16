@@ -6,6 +6,7 @@ import groceryImg from "../../public/images/grocery.png";
 import icalendifyImg from "../../public/images/icalendify.png";
 import dealornodealImg from "../../public/images/dealornodeal.png";
 import pathvisorImg from "../../public/images/pathvisor.gif";
+import calcImg from "../../public/images/calc.png";
 
 export const heroData = {
   img: myImage,
@@ -194,6 +195,24 @@ export const ProjectsData = {
       demoUrl: "https://rajshah.vercel.app/",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
     },
+    
+    {
+      name: "Basic Calculator",
+      image: calcImg,
+      technologies: [
+        "JavaScript,",
+        "HTML,",
+        "CSS,",
+        "React,",
+        "Node.js,",
+        "Vercel",
+      ],
+      description:"This basic calculator app is a backend focuses tool for performing arithmetic operations including addition, subtraction, multiplication, and division. Featuring functionality similar to the iPhone calculator app pre-iOS 18, it supports formatted outputs and allows users to perform multiple calculations seamlessly, making it an ideal solution for everyday use.",
+
+      demoUrl: "calculator-react-fawn-ten.vercel.app/",
+      codeUrl: "https://github.com/rajshah6/calculator-react",
+    },
+
     {
       name: "GroceryMaster",
       image: groceryImg,
