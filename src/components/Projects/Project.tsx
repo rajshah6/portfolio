@@ -15,6 +15,7 @@ type ProjectProps = {
     image: StaticImageData;
     technologies: string[];
     description: string;
+    liveUrl: string;
     demoUrl: string;
     codeUrl: string;
   };
@@ -80,7 +81,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
           {data.description}
         </p>
         <div className={`${styles.projects_container_project_right_buttons}`}>
-          {data.demoUrl && (
+          {data.liveUrl && (
             <motion.a
               onClick={() => {
                 if (SoundActive) {
@@ -98,11 +99,36 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
                 transform: "translate(-0.5rem, -0.5rem)",
               }}
               className={`${styles.projects_container_project_right_buttons_btn}`}
-              href={data.demoUrl}
+              href={data.liveUrl}
               target="_blank"
             >
               <Icon icon={"ph:arrow-square-out-light"} />
               Live
+            </motion.a>
+          )}
+          {data.demoUrl && (
+            <motion.a
+              onClick={() => {
+                if (SoundActive) {
+                  playClick();
+                }
+                logEvent(getAnalytics(), `${data.name} Demo`);
+              }}
+              onHoverStart={() => {
+                if (SoundActive) {
+                  playPop();
+                }
+              }}
+              whileHover={{
+                boxShadow: "0.5rem 0.5rem 0px var(--secondary)",
+                transform: "translate(-0.5rem, -0.5rem)",
+              }}
+              className={`${styles.projects_container_project_right_buttons_btn}`}
+              href={data.demoUrl}
+              target="_blank"
+            >
+              <Icon icon={"ph:arrow-square-out-light"} />
+              Demo
             </motion.a>
           )}
           {data.codeUrl && (
