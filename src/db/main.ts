@@ -1,7 +1,6 @@
 import schoolsphereImg from "../../public/images/schoolsphere.png";
 import portfolioImg from "../../public/images/portfolio.png";
 import myImage from "../../public/images/waterloo.png";
-import alopeciaImg from "../../public/images/alopecia.png";
 import groceryImg from "../../public/images/grocery.png";
 import icalendifyImg from "../../public/images/icalendify.png";
 import dealornodealImg from "../../public/images/dealornodeal.png";
@@ -150,6 +149,7 @@ export const ProjectsData = {
       ],
       description:
         "",
+      liveUrl: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/ai-interviewer",
     },
@@ -170,6 +170,7 @@ export const ProjectsData = {
       description:
         "PathVisor is an interactive app that brings pathfinding algorithms to life! Designed for students, educators, and graph theory enthusiasts, it offers a hands-on way to explore Dijkstra’s Algorithm, A*, Breadth First Search, and Depth First Search. With its intuitive grid interface, real-time animations, and step-by-step analysis, PathVisor makes learning fun and accessible. Customize scenarios, experiment with algorithm speed, and gain deeper insights into the decision-making processes of these powerful tools.",
       liveUrl: "https://pathvisor.vercel.app",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/pathfinding-visualizer",
     },
     {
@@ -187,6 +188,7 @@ export const ProjectsData = {
       description:
         "Most modern calendar apps are cluttered with features, making it hard to focus on your most important daily tasks. iCalendify is a minimalist calendar app designed to simplify your scheduling experience. With a clean interface and intuitive design, it lets you quickly note down the most important tasks each day, saving all events locally which can be accessed at any time. The app was built using vanilla JavaScript. iOS version coming soon—hence the name!",
       liveUrl: "https://icalendify.vercel.app/",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/iCalendify",
     },
     {
@@ -201,6 +203,7 @@ export const ProjectsData = {
       description:
         "SchoolSphere is a robust database system designed to streamline the organization of students, employees, and school inventory. Built using Object-Oriented principles in Java, the system leverages polymorphism, inheritance, and encapsulation to provide a scalable and maintainable solution. Developed in Apache NetBeans, it efficiently handles data storage and retrieval using file I/O operations with .txt files for employee, student, and inventory records.",
       liveUrl: "",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/school-sphere",
     },
     {
@@ -220,6 +223,7 @@ export const ProjectsData = {
       description:
         "Hey it looks like you're already here! The application utilizes Next.js for server-side rendering and dynamic routing, which significantly enhances SEO and reduces page load times. Additionally, I integrated Firebase to provide real-time database functionality, enabling seamless updates to portfolio content without the need for redeployment.",
       liveUrl: "https://rajshah.vercel.app/",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
     },
     
@@ -237,6 +241,7 @@ export const ProjectsData = {
       description:"This basic calculator app is a backend focuses tool for performing arithmetic operations including addition, subtraction, multiplication, and division. Featuring functionality similar to the iPhone calculator app pre-iOS 18, it supports formatted outputs and allows users to perform multiple calculations seamlessly, making it an ideal solution for everyday use.",
 
       liveUrl: "https://calculator-react-fawn-ten.vercel.app/",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/calculator-react",
     },
 
@@ -251,6 +256,7 @@ export const ProjectsData = {
       description:
         "GroceryMaster simulates a grocery store’s inventory system, enabling users to add, save, and access food items. The inventory is saved in a structured inventory.txt file, allowing for persistent and manual data access. With an intuitive Java interface, users can easily search, add, or retrieve items by SKU or name. The inventory updates dynamically upon button clicks, ensuring real-time accuracy.",
       liveUrl: "",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/grocery-master",
     },
     {
@@ -264,6 +270,7 @@ export const ProjectsData = {
         "Deal or No Deal is a classic game show that has captivated audiences worldwide. This Python application brings the excitement of the game to your computer, challenging you to make strategic decisions and test your luck. With a sleek Tkinter interface, the game offers an engaging experience that mirrors the thrill of the original show.",
 
       liveUrl: "",
+      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/deal-or-no-deal",
     },
   ],
