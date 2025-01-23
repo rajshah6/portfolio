@@ -137,18 +137,16 @@ export const ProjectsData = {
         "Python,", 
         "Flask,",
         "OpenAI,", 
-        "Cohere API,", 
+        "Cohere,", 
         "GCP,", 
         "OpenCV,", 
         "SQLite,", 
         "SQLAlchemy,", 
-        "React,", 
-        "JavaScript,", 
-        "HTML,", 
+        "React.js,", 
         "Tailwind CSS"
       ],
-      description:
-        "",
+      description: 
+          "PrepPal is an AI-powered interview buddy that helps students prepare for behavioural interviews by generating personalized questions based on the user's Resume. Using OpenAI's GPT API and Cohere API, it creates tailored questions and evaluates their video responses, saving all benchmarks in a SQLite database. The app also features a real-time video recording tool that analyzes the user's eye contact using OpenCV.",
       liveUrl: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/ai-interviewer",
@@ -161,7 +159,6 @@ export const ProjectsData = {
         "Node.js,",
         "Vite,",
         "TypeScript,",
-        "JavaScript,",
         "HTML,",
         "CSS,",
         "Git,",
@@ -211,7 +208,6 @@ export const ProjectsData = {
       image: portfolioImg,
       technologies: [
         "TypeScript,",
-        "JavaScript,",
         "HTML,",
         "CSS,",
         "React,",
