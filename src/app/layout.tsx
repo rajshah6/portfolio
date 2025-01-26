@@ -6,6 +6,7 @@ import Providers from "@/providers/Providers";
 import { Quicksand } from "next/font/google";
 import "../styles/GlobalStyles.scss";
 import styles from "../styles/Layout/MainLayout.module.scss";
+import { Analytics } from "@vercel/analytics/react";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             <Navbar />
             <Links />
             {children}
+            <Analytics />
             <Cursor />
             <Footer />
           </Providers>
