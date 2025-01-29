@@ -1,9 +1,13 @@
 "use client";
+import { soundState } from "@/atoms/SoundAtom";
 import { contactData } from "@/db/main";
 import { getAnalytics, logEvent } from "firebase/analytics";
 import { Variants, motion } from "framer-motion";
 import React from "react";
 import styles from "../../styles/components/Contact.module.scss";
+import { useRecoilValue } from "recoil";
+import useSound from "use-sound";
+
 type ContactProps = {};
 const containerVariants: Variants = {
   animate: {
@@ -44,6 +48,10 @@ const linkVariants: Variants = {
   },
 };
 const Contact: React.FC<ContactProps> = () => {
+  const { SoundActive } = useRecoilValue(soundState);
+  const [playPop] = useSound("/sounds/pop.mp3", { volume: 0.2 });
+  const [playClick] = useSound("/sounds/box-click.wav", { volume: 0.5 });
+  
   return (
     <motion.div
       variants={containerVariants}
@@ -79,7 +87,15 @@ const Contact: React.FC<ContactProps> = () => {
             key={i}
             variants={linkVariants}
             whileHover={{ color: "var(--secondary)" }}
+            onHoverStart={() => {
+              if (SoundActive) {
+                playPop();
+              }
+            }}
             onClick={() => {
+              if (SoundActive) {
+                playClick();
+              }
               logEvent(getAnalytics(), `${link.label} Contact`);
             }}
           >
