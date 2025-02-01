@@ -42,8 +42,8 @@ export const SkillsData = {
     {
       title: "Languages",
       skills: [
-        "Java",
         "Python",
+        "Java",
         "C",
         "C++",
         "C#",
