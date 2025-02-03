@@ -7,6 +7,7 @@ import dealornodealImg from "../../public/images/dealornodeal.png";
 import pathvisorImg from "../../public/images/pathvisor.gif";
 import calcImg from "../../public/images/calc.png";
 import preppalImg from "../../public/images/preppal.gif";
+import solguardImg from "../../public/images/solguard.png";
 
 export const heroData = {
   img: myImage,
@@ -69,6 +70,7 @@ export const SkillsData = {
         "Tailwind CSS",
         "Vite",
         "Apache",
+        "NumPy",
         "PyTorch",
         "Scitkit-Learn",
         "Angular",   
@@ -151,6 +153,28 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/ai-interviewer",
+    },
+    {
+      name: "SolGuard",
+      image: solguardImg,
+      technologies: [
+        "Python,", 
+        "FastAPI,",
+        "LlamaCpp,", 
+        "LangChain,", 
+        "ChromaDB,", 
+        "Instructor Embeddings,",
+        "PyTorch,", 
+        "HuggingFace LLMs,", 
+        "React.js,", 
+        "Tailwind CSS"
+      ],
+      description: 
+        "SolGuard is a fully local AI chatbot for Sun Life Insurance, powered by LlamaCpp to process website data offline, ensuring 100% data privacy. Using a RAG pipeline with LangChain and InstructorEmbeddings, it boosts data ingestion efficiency, delivering precise, tailored responses. ChromaDB enables low-latency searches with optimized vector embeddings. A secure, efficient, and privacy-first AI solution for Sun Life.",
+      liveUrl: "",
+      topPage: "",
+      demoUrl: "",
+      codeUrl: "https://github.com/rajshah6/privateGPT",
     },
     {
       name: "PathVisor",
