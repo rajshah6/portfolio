@@ -149,7 +149,7 @@ export const ProjectsData = {
       ],
       description: 
           "PrepPal is an AI-powered interview buddy that helps students prepare for behavioural interviews by generating personalized questions based on the user's Resume. Using OpenAI's GPT API and Cohere API, it creates tailored questions and evaluates their video responses, saving all benchmarks in a SQLite database. The app also features a real-time video recording tool that analyzes the user's eye contact using OpenCV.",
-      liveUrl: "",
+      liveUrl: "https://prep-pal-ai.vercel.app/",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/ai-interviewer",
