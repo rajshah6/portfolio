@@ -10,7 +10,7 @@ This is an open-source website built using the **React** framework and deployed 
 
 ## 🛠️ Installation
 
-Click the [link](https://rajshah.vercel.app/) or follow these steps to run the project locally:
+Click the [link](https://rajshah.live/) or follow these steps to run the project locally:
 
 **Clone the Repository**
 
