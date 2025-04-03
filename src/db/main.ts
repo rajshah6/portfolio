@@ -8,6 +8,7 @@ import pathvisorImg from "../../public/images/pathvisor.gif";
 import calcImg from "../../public/images/calc.png";
 import preppalImg from "../../public/images/preppal.gif";
 import solguardImg from "../../public/images/solguard.png";
+import embereyeImg from "../../public/images/embereye.png";
 
 export const heroData = {
   img: myImage,
@@ -149,32 +150,29 @@ export const ProjectsData = {
       ],
       description: 
           "PrepPal is an AI-powered interview buddy that helps students prepare for behavioural interviews by generating personalized questions based on the user's Resume. Using OpenAI's GPT API and Cohere API, it creates tailored questions and evaluates their video responses, saving all benchmarks in a SQLite database. The app also features a real-time video recording tool that analyzes the user's eye contact using OpenCV.",
-      liveUrl: "https://prep-pal-ai.vercel.app/",
+      liveUrl: "https://preppal.work",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/ai-interviewer",
     },
     {
-      name: "SolGuard",
-      image: solguardImg,
+      name: "EmberEye",
+      image: embereyeImg,
       technologies: [
         "Python,", 
-        "FastAPI,",
-        "LlamaCpp,", 
-        "LangChain,", 
-        "ChromaDB,", 
-        "Instructor Embeddings,",
-        "PyTorch,", 
-        "HuggingFace LLMs,", 
+        "Flask,",
+        "Gemini,", 
+        "Cohere,", 
+        "MongoDB,", 
         "React.js,", 
         "Tailwind CSS"
       ],
       description: 
-        "SolGuard is a fully local AI chatbot for Sun Life Insurance, powered by LlamaCpp to process website data offline, ensuring 100% data privacy. Using a RAG pipeline with LangChain and InstructorEmbeddings, it boosts data ingestion efficiency, delivering precise, tailored responses. ChromaDB enables low-latency searches with optimized vector embeddings. A secure, efficient, and privacy-first AI solution for Sun Life.",
-      liveUrl: "",
+          "EmberEye is an AI-powered wildfire detection and prediction system designed as an affordable alternative to high-budget satellite solutions. By integrating NASA’s FIRMS API, OpenWeatherMap, and advanced AI models like Cohere and Gemini, it provides real-time wildfire tracking, predictive analysis, and automated data updates in a sleek, responsive React interface. With a scalable MongoDB backend, optimized data handling, and intelligent automation, EmberEye efficiently processes thousands of wildfire records while ensuring fast performance and accurate forecasting. Built for climate action (UN SDG #13), this project combines cutting-edge technology with real-world impact, offering a cost-effective, high-performance solution for wildfire monitoring.",
+      liveUrl: "https://ember-eye.vercel.app/",
       topPage: "",
       demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/privateGPT",
+      codeUrl: "https://github.com/rajshah6/EmberEye",
     },
     {
       name: "PathVisor",
