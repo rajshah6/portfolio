@@ -171,7 +171,7 @@ export const ProjectsData = {
           "EmberEye is an AI-powered wildfire detection and prediction system designed as an affordable alternative to high-budget satellite solutions. By integrating NASA’s FIRMS API, OpenWeatherMap, and advanced AI models like Cohere and Gemini, it provides real-time wildfire tracking, predictive analysis, and automated data updates in a sleek, responsive React interface. With a scalable MongoDB backend, optimized data handling, and intelligent automation, EmberEye efficiently processes thousands of wildfire records while ensuring fast performance and accurate forecasting. Built for climate action (UN SDG #13), this project combines cutting-edge technology with real-world impact, offering a cost-effective, high-performance solution for wildfire monitoring.",
       liveUrl: "https://ember-eye.vercel.app/",
       topPage: "",
-      demoUrl: "",
+      demoUrl: "https://www.youtube.com/watch?v=xo4wJuv5IHE",
       codeUrl: "https://github.com/rajshah6/EmberEye",
     },
     {
