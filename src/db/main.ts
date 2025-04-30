@@ -6,7 +6,7 @@ import icalendifyImg from "../../public/images/icalendify.png";
 import dealornodealImg from "../../public/images/dealornodeal.png";
 import pathvisorImg from "../../public/images/pathvisor.gif";
 import calcImg from "../../public/images/calc.png";
-import preppalImg from "../../public/images/preppal.gif";
+import preppalImg from "../../public/images/preppal.png";
 import solguardImg from "../../public/images/solguard.png";
 import embereyeImg from "../../public/images/embereye.png";
 
