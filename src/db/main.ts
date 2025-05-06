@@ -13,7 +13,7 @@ import embereyeImg from "../../public/images/embereye.png";
 export const heroData = {
   img: myImage,
   hi: "👋 Hey there! I am",
-  name: "Raj Shahah",
+  name: "Raj Shah",
   expertise: ["Full-Stack Developer", "App Designer"],
   about:
     "I'm a passionate Software Developer, currently studying Computer Science at the University of Waterloo. I love building things that live on the internet, whether that be websites, applications, or anything in between. Let’s push boundaries and build groundbreaking experiences together!",
