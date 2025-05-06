@@ -9,7 +9,7 @@ import styles from "../styles/Layout/MainLayout.module.scss";
 import { Analytics } from "@vercel/analytics/react";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
-
+ 
 export default function RootLayout({
   children,
 }: {
