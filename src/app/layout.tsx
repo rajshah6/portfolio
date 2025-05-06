@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer/Footer";
+
 import Cursor from "@/components/Layout/Cursor";
 import Links from "@/components/Layout/Links";
 import Navbar from "@/components/Navbar/Navbar";
