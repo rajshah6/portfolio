@@ -17,7 +17,7 @@ export const heroData = {
   expertise: ["Full-Stack Developer", "App Designer"],
   about:
     "I'm a passionate Software Developer, currently studying Computer Science at the University of Waterloo. I love building things that live on the internet, whether that be websites, applications, or anything in between. Let’s push boundaries and build groundbreaking experiences together!",
-  btnText: " View My Resume",
+
 };
 
 export const aboutData = {
@@ -122,10 +122,6 @@ export const contactData = {
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/rshah9/",
-    },
-    {
-      label: "Resume",
-      url: "/Docs/resume.pdf",
     },
   ],
 };

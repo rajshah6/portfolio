@@ -202,26 +202,6 @@ const Hero: React.FC<HeroProps> = () => {
               {heroData.about}
             </motion.span>
           </div>
-          <motion.a
-            href="Docs/resume.pdf"
-            target="_blank"
-            variants={textChildrenVariants}
-            whileHover={{
-              boxShadow: "0.7rem 0.7rem 0px var(--secondary)",
-              transform: "translate(-0.7rem, -0.7rem)",
-            }}
-            className={`${styles.hero_left_container_btn}`}
-            onClick={() => {
-              if (SoundActive) {
-                playClick();
-              }
-              logEvent(getAnalytics(), `Resume hero`);
-            }}
-          >
-            <Icon icon={"ph:arrow-square-out-light"} />
-            {heroData.btnText}
-            
-          </motion.a>
         </motion.div>
         <motion.div
           variants={circleVariants}
