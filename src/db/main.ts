@@ -149,7 +149,7 @@ export const ProjectsData = {
       liveUrl: "https://preppal.work",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
-      codeUrl: "https://github.com/rajshah6/ai-interviewer",
+      codeUrl: "https://github.com/rajshah6/preppal",
     },
     {
       name: "EmberEye",
