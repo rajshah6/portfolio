@@ -164,6 +164,7 @@ const getConnectIconName = (label: string): string => {
 const Hero: React.FC<HeroProps> = () => {
   const { SoundActive } = useRecoilValue(soundState);
   const [playClick] = useSound("/sounds/box-click.wav", { volume: 0.5 });
+  const [playPop] = useSound("/sounds/pop.mp3", { volume: 0.2 });
   return (
     <div className={`${styles.hero}`} id="hero">
       <div className={`${styles.hero_left}`}>
@@ -216,6 +217,17 @@ const Hero: React.FC<HeroProps> = () => {
                   rel="noopener noreferrer"
                   className={`${styles.hero_left_container_connect_link} ${styles.hero_left_container_connect_box}`}
                   aria-label={link.label}
+                  onMouseEnter={() => {
+                    if (SoundActive) {
+                      playPop();
+                    }
+                  }}
+                  onClick={() => {
+                    if (SoundActive) {
+                      playClick();
+                    }
+                    logEvent(getAnalytics(), `${link.label} Hero`);
+                  }}
                 >
                   <Icon
                     icon={getConnectIconName(link.label)}
