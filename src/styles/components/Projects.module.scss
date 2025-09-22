@@ -80,7 +80,7 @@
           color: var(--tertiary);
           font-weight: var(--light);
           
-          .description-line {
+          &_line {
             margin-bottom: 0.5rem;
             line-height: 1.4;
             
@@ -170,7 +170,7 @@
           &_description {
             font-size: 2.3rem;
             
-            .description-line {
+            &_line {
               margin-bottom: 0.5rem;
               line-height: 1.4;
               

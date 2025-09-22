@@ -138,8 +138,7 @@ export const ProjectsData = {
       ],
       description: [
           "1st Place Winner (Martian Track, $4,000) at Hack the North 2025",
-          "Visual agentic workflow builder",
-          "Sketch on a 2D canvas to create workflows automatically",
+          "Sketch on a 2D canvas to create agentic workflows automatically",
           "Integrates with existing codebases to import and use your own functions",
           "Enhanced with RAG for processing external documents and data sources",
           "Connects to external APIs and can scrape data from various online sources"

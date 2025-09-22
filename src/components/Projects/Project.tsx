@@ -83,7 +83,10 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
           className={`${styles.projects_container_project_right_description}`}
         >
           {data.description.map((point, index) => (
-            <div key={index} className="description-line">
+            <div
+              key={index}
+              className={`${styles.projects_container_project_right_description_line}`}
+            >
               • {point}
             </div>
           ))}
