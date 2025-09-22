@@ -160,7 +160,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
               href={data.demoUrl}
               target="_blank"
             >
-              <Icon icon={"ph:arrow-square-out-light"} />
+              <Icon icon={"ph:video-light"} />
               Demo
             </motion.a>
           )}
