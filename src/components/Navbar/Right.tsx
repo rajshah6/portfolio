@@ -73,15 +73,15 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `About Navbar`);
+              logEvent(getAnalytics(), `Skills Navbar`);
             }}
-            to="about"
-            href="about"
+            to="skills"
+            href="skills"
             smooth={true}
             duration={600}
             offset={50}
           >
-            About
+            Skills
           </Link>
         </motion.li>
         <motion.li

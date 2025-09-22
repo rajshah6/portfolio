@@ -285,12 +285,12 @@ const Hero: React.FC<HeroProps> = () => {
             }
             logEvent(getAnalytics(), `Scroll Hero`);
           }}
-          to="about"
+          to="skills"
           smooth={true}
           duration={600}
           offset={10}
-          href="about"
-          aria-label="about"
+          href="skills"
+          aria-label="skills"
         >
           <Icon
             className={`${styles.hero_scroll_mouse}`}

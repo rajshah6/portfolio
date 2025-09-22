@@ -20,24 +20,6 @@ export const heroData = {
 
 };
 
-export const aboutData = {
-  title: "About Me",
-  cards: [
-    {
-      title: "How Did I Get Here?",
-      text: `My journey began when I was 12 years old, sparked by a fascination with problem-solving and technology. From leading teams at SHAD to creating cutting-edge projects, each experience has honed my skills and deepened my passion for driving impact through code and leadership.`,
-    },
-    {
-      title: "Who Am I Today?",
-      text: "Now, I’m deeply immersed in the world of technology, excited by the endless possibilities it offers to create real change. From building apps to mentoring aspiring coders, I’m constantly inspired by the impact we can make through innovation and dedication!",
-    },
-    {
-      title: "What's Next?",
-      text: "The future is about pushing boundaries. I'm excited to explore my growing interests in machine learning and cryptography while continuing to lead, learn, and inspire. There's always a new horizon to chase, and I'm ready to tackle it head-on!",
-    },
-  ],
-};
-
 export const SkillsData = {
   title: "Skills",
   categories: [
