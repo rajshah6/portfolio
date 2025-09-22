@@ -188,9 +188,6 @@ const Hero: React.FC<HeroProps> = () => {
               <span className={`${UI.importantText}`}>
                 {heroData.expertise[0]}
               </span>
-              <div
-                className={`${styles.hero_left_container_text_expertise_circle}`}
-              ></div>
               <span className={`${UI.importantText}`}>
                 {heroData.expertise[1]}
               </span>

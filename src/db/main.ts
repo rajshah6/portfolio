@@ -14,9 +14,9 @@ export const heroData = {
   img: myImage,
   hi: "👋 Hey there! I am",
   name: "Raj Shah",
-  expertise: ["Full-Stack Developer", "App Designer"],
+  expertise: ["Software Developer"],
   about:
-    "I'm a passionate Software Developer, currently studying Computer Science at the University of Waterloo. I love building things that live on the internet, whether that be websites, applications, or anything in between. Let’s push boundaries and build groundbreaking experiences together!",
+    "I'm study Computer Science at the University of Waterloo. I love building things accessible to everyone. Let’s push boundaries and build groundbreaking experiences together!",
 
 };
 
