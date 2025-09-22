@@ -63,7 +63,7 @@ const Links: React.FC<LinksProps> = () => {
       <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
-        href="mailto:rajnshah2020@gmail.com"
+        href="mailto:r33shah@uwaterloo.ca"
         target="_blank"
         aria-label="email"
         onClick={() => {

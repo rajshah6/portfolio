@@ -1,6 +1,6 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
-import { heroData } from "@/db/main";
+import { heroData, contactData } from "@/db/main";
 import { Icon } from "@iconify/react";
 import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
@@ -154,6 +154,13 @@ const scrollVariants = {
     },
   },
 };
+const getConnectIconName = (label: string): string => {
+  const normalized = label.toLowerCase();
+  if (normalized.includes("email")) return "mdi:email-outline";
+  if (normalized.includes("github")) return "mdi:github";
+  if (normalized.includes("linkedin")) return "mdi:linkedin";
+  return "mdi:link-variant";
+};
 const Hero: React.FC<HeroProps> = () => {
   const { SoundActive } = useRecoilValue(soundState);
   const [playClick] = useSound("/sounds/box-click.wav", { volume: 0.5 });
@@ -167,7 +174,6 @@ const Hero: React.FC<HeroProps> = () => {
           className={`${styles.hero_left_container}`}
         >
           <div className={`${styles.hero_left_container_text}`}>
-            
             <motion.span
               variants={textChildrenVariants}
               className={`${UI.lightText}`}
@@ -198,6 +204,31 @@ const Hero: React.FC<HeroProps> = () => {
             >
               {heroData.about}
             </motion.span>
+            <motion.div
+              variants={textChildrenVariants}
+              className={`${styles.hero_left_container_connect}`}
+            >
+              {contactData.links.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${styles.hero_left_container_connect_link} ${styles.hero_left_container_connect_box}`}
+                  aria-label={link.label}
+                >
+                  <Icon
+                    icon={getConnectIconName(link.label)}
+                    className={`${styles.hero_left_container_connect_icon}`}
+                  />
+                  <span
+                    className={`${styles.hero_left_container_connect_text}`}
+                  >
+                    {link.label}
+                  </span>
+                </a>
+              ))}
+            </motion.div>
           </div>
         </motion.div>
         <motion.div

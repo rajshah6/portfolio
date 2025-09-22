@@ -150,8 +150,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
         <motion.li
           variants={itemVariants}
           className={`${styles.navbar_right_list_item}`}
-        >
-        </motion.li>
+        ></motion.li>
         <motion.li
           variants={itemVariants}
           className={`${styles.navbar_right_list_item}`}
@@ -193,7 +192,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
             </a>
             <a
               className={`${styles.navbar_right_links_container_link}`}
-              href="mailto:rajnshah2020@gmail.com"
+              href="mailto:r33shah@uwaterloo.ca"
               target="_blank"
               aria-label="email"
               onClick={() => {

@@ -16,7 +16,7 @@ export const heroData = {
   name: "Raj Shah",
   expertise: ["Software Developer"],
   about:
-    "I'm study Computer Science at the University of Waterloo. I love building things accessible to everyone. Let’s push boundaries and build groundbreaking experiences together!",
+    "I'm study Computer Science at the University of Waterloo. I love building things accessible to everyone. Let’s push boundaries and build groundbreaking experiences together, feel free to connect!",
 
 };
 
@@ -113,7 +113,7 @@ export const contactData = {
   links: [
     {
       label: "Email",
-      url: "mailto:rajnshah2020@gmail.com",
+      url: "mailto:r33shah@uwaterloo.ca",
     },
     {
       label: "GitHub",
