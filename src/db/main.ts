@@ -15,9 +15,9 @@ export const heroData = {
   img: myImage,
   hi: "👋 Hey there! I am",
   name: "Raj Shah",
-  expertise: ["Software Developer"],
+  expertise: ["<strong>Computer Science @ University of Waterloo</strong>"],
   about:
-    "I'm study Computer Science at the <strong>University of Waterloo</strong>. I love building things accessible to everyone. Let's push boundaries and build groundbreaking experiences together, feel free to connect!",
+    "I love building things accessible to everyone. Let's push boundaries and build groundbreaking experiences together, feel free to connect!",
 
 };
 

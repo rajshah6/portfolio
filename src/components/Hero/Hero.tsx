@@ -192,12 +192,10 @@ const Hero: React.FC<HeroProps> = () => {
               variants={textChildrenVariants}
               className={`${styles.hero_left_container_text_expertise}`}
             >
-              <span className={`${UI.importantText}`}>
-                {heroData.expertise[0]}
-              </span>
-              <span className={`${UI.importantText}`}>
-                {heroData.expertise[1]}
-              </span>
+              <span
+                className={`${UI.importantText}`}
+                dangerouslySetInnerHTML={{ __html: heroData.expertise[0] }}
+              />
             </motion.div>
             <motion.span
               variants={textChildrenVariants}
