@@ -9,6 +9,7 @@ import calcImg from "../../public/images/calc.png";
 import preppalImg from "../../public/images/preppal.png";
 import solguardImg from "../../public/images/solguard.png";
 import embereyeImg from "../../public/images/embereye.png";
+import langsketchImg from "../../public/images/langsketch.png";
 
 export const heroData = {
   img: myImage,
@@ -124,6 +125,31 @@ export const contactData = {
 export const ProjectsData = {
   title: "Projects",
   Projects: [
+    {
+      name: "LangSketch",
+      image: langsketchImg,
+      technologies: [
+        "Python,", 
+        "FastAPI,",
+        "LangChain,", 
+        "Martian,", 
+        "Databricks,", 
+        "Electron,", 
+      ],
+      description: [
+          "1st Place Winner (Martian Track, $4,000) at Hack the North 2025",
+          "Visual agentic workflow builder",
+          "Sketch on a 2D canvas to create workflows automatically",
+          "Integrates with existing codebases to import and use your own functions",
+          "Enhanced with RAG for processing external documents and data sources",
+          "Connects to external APIs and can scrape data from various online sources"
+        ],
+      liveUrl: "",
+      topPage: "",
+      demoUrl: "https://www.youtube.com/watch?v=3CpwQWJc918",
+      codeUrl: "https://github.com/rajshah6/langsketch",
+      devpostUrl: "https://devpost.com/software/langsketch",
+    },
     {
       name: "PrepPal",
       image: preppalImg,
