@@ -19,6 +19,7 @@ type ProjectProps = {
     topPage: string;
     demoUrl: string;
     codeUrl: string;
+    devpostUrl: string;
   };
   index: number;
 };
@@ -186,6 +187,31 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
             >
               <Icon icon={"mdi:github"} />
               Code
+            </motion.a>
+          )}
+          {data.devpostUrl && (
+            <motion.a
+              onClick={() => {
+                if (SoundActive) {
+                  playClick();
+                }
+                logEvent(getAnalytics(), `${data.name} Devpost`);
+              }}
+              onHoverStart={() => {
+                if (SoundActive) {
+                  playPop();
+                }
+              }}
+              whileHover={{
+                boxShadow: "0.5rem 0.5rem 0px var(--secondary)",
+                transform: "translate(-0.5rem, -0.5rem)",
+              }}
+              className={`${styles.projects_container_project_right_buttons_btn}`}
+              href={data.devpostUrl}
+              target="_blank"
+            >
+              <Icon icon={"simple-icons:devpost"} />
+              Devpost
             </motion.a>
           )}
         </div>

@@ -130,14 +130,10 @@ export const ProjectsData = {
       technologies: [
         "Python,", 
         "Flask,",
-        "OpenAI,", 
-        "Cohere,", 
         "GCP,", 
         "OpenCV,", 
         "SQLite,", 
         "SQLAlchemy,", 
-        "React.js,", 
-        "Tailwind CSS"
       ],
       description: [
           "AI-powered interview preparation platform",
@@ -150,6 +146,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/preppal",
+      devpostUrl: "https://dorahacks.io/buidl/21711",
     },
     {
       name: "EmberEye",
@@ -160,8 +157,6 @@ export const ProjectsData = {
         "Gemini,", 
         "Cohere,", 
         "MongoDB,", 
-        "React.js,", 
-        "Tailwind CSS"
       ],
       description: [
           "Wildfire detection and prediction system",
@@ -173,6 +168,29 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=xo4wJuv5IHE",
       codeUrl: "https://github.com/rajshah6/EmberEye",
+      devpostUrl: "https://devpost.com/software/firecheck-s1tlf8",
+    },
+    {
+      name: "SolGuard",
+      image: solguardImg,
+      technologies: [
+        "Python,",
+        "LangChain,",
+        "ChromaDB,",
+        "FastAPI,",
+        "InstructorEmbeddings,",
+        "LlamaCpp"
+      ],
+      description: [
+          "Privacy-first AI chatbot for Sun Life Financial company",
+          "Answers questions from structured financial PDFs",
+          "Ensures data privacy and security compliance"
+        ],
+      liveUrl: "",
+      topPage: "",
+      demoUrl: "",
+      codeUrl: "https://github.com/rajshah6/privateGPT",
+      devpostUrl: "https://devpost.com/software/sunlife-chat-bot",
     },
     {
       name: "PathVisor",
@@ -180,12 +198,7 @@ export const ProjectsData = {
       technologies: [
         "Svelte,",
         "Node.js,",
-        "Vite,",
         "TypeScript,",
-        "HTML,",
-        "CSS,",
-        "Git,",
-        "Vercel",
       ],
       description: [
         "Interactive pathfinding algorithm visualizer",
@@ -197,6 +210,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/pathfinding-visualizer",
+      devpostUrl: "",
     },
     {
       name: "iCalendify",
@@ -206,9 +220,6 @@ export const ProjectsData = {
         "CSS,",
         "HTML,",
         "Vercel,",
-        "State Management,",
-        "Data Binding,",
-        "Lifecycle",
       ],
       description: [
         "Minimalist calendar app for daily task management",
@@ -220,6 +231,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/iCalendify",
+      devpostUrl: "",
     },
     {
       name: "SchoolSphere",
@@ -240,6 +252,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/school-sphere",
+      devpostUrl: "",
     },
     {
       name: "Personal Portfolio",
@@ -265,6 +278,7 @@ export const ProjectsData = {
       topPage: "#top",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
+      devpostUrl: "",
     },
     
 
@@ -288,6 +302,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/grocery-master",
+      devpostUrl: "",
     },
     {
       name: "Deal or No Deal", 
@@ -306,6 +321,7 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/deal-or-no-deal",
+      devpostUrl: "",
     },
   ],
 };
