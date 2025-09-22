@@ -1,6 +1,6 @@
 import schoolsphereImg from "../../public/images/schoolsphere.png";
 import portfolioImg from "../../public/images/portfolio.gif";
-import myImage from "../../public/images/waterloo.png";
+import myImage from "../../public/images/myImage.png";
 import groceryImg from "../../public/images/grocery.png";
 import icalendifyImg from "../../public/images/icalendify.png";
 import dealornodealImg from "../../public/images/dealornodeal.png";
