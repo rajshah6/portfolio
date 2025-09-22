@@ -49,11 +49,12 @@
   }
   &_right {
     display: block;
-    width: 60%;
+    width: auto;
     max-width: 80rem;
     &_list {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
+      gap: 4rem;
       &_item {
         position: relative;
         font-size: 1.9rem;
@@ -130,7 +131,7 @@
         background: var(--primary);
         padding-top: 10rem;
         padding-bottom: 3rem;
-        gap: 5rem;
+        gap: 3rem;
       }
       &_links {
         width: 100%;
@@ -144,7 +145,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: 2rem;
+          gap: 1.5rem;
           &_link {
             width: 5rem;
             height: 5rem;

@@ -94,27 +94,6 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `Skills Navbar`);
-            }}
-            to="skills"
-            smooth={true}
-            duration={600}
-            offset={50}
-            href="skills"
-          >
-            Skills
-          </Link>
-        </motion.li>
-        <motion.li
-          variants={itemVariants}
-          className={`${styles.navbar_right_list_item}`}
-        >
-          <Link
-            onClick={() => {
-              if (SoundActive) {
-                playClick();
-              }
-              setNavState((prev) => ({ ...prev, open: false }));
               logEvent(getAnalytics(), `Projects Navbar`);
             }}
             to="projects"
