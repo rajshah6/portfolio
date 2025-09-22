@@ -139,8 +139,13 @@ export const ProjectsData = {
         "React.js,", 
         "Tailwind CSS"
       ],
-      description: 
-          "• AI-powered interview preparation platform\n• Generates personalized questions based on user's resume\n• Evaluates user's video responses and assesses them\n• Analyzes eye contact, confidence levels, and non-verbal cues\n• Stores performance benchmarks for each user",
+      description: [
+          "AI-powered interview preparation platform",
+          "Generates personalized questions based on user's resume",
+          "Evaluates user's video responses and assesses them",
+          "Analyzes eye contact, confidence levels, and non-verbal cues",
+          "Stores performance benchmarks for each user"
+        ],
       liveUrl: "https://preppal.work",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
@@ -158,8 +163,12 @@ export const ProjectsData = {
         "React.js,", 
         "Tailwind CSS"
       ],
-      description: 
-          "• Wildfire detection and prediction system\n• Affordable alternative to satellite-based solutions\n• Built for climate action (UN SDG #13)",
+      description: [
+          "Wildfire detection and prediction system",
+          "Integrates with map data to show wildfire locations",
+          "Affordable alternative to satellite-based solutions",
+          "Built for climate action (UN SDG #13)"
+        ],
       liveUrl: "https://ember-eye.vercel.app/",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=xo4wJuv5IHE",
@@ -178,8 +187,12 @@ export const ProjectsData = {
         "Git,",
         "Vercel",
       ],
-      description:
-        "• Interactive pathfinding algorithm visualizer\n• Supports Dijkstra's, A*, BFS, and DFS algorithms\n• Real-time animations with step-by-step analysis\n• Customizable scenarios and algorithm speed controls\n• Educational tool for students and graph theory enthusiasts",
+      description: [
+        "Interactive pathfinding algorithm visualizer",
+        "Supports Dijkstra's, A*, BFS, and DFS algorithms",
+        "Real-time animations with step-by-step analysis",
+        "Customizable scenarios and algorithm speed controls",
+      ],
       liveUrl: "https://pathvisor.vercel.app",
       topPage: "",
       demoUrl: "",
@@ -197,8 +210,12 @@ export const ProjectsData = {
         "Data Binding,",
         "Lifecycle",
       ],
-      description:
-        "• Minimalist calendar app for daily task management\n• Clean, clutter-free interface for focused scheduling\n• Local storage for offline access to events\n• Built with vanilla JavaScript\n• iOS version in development",
+      description: [
+        "Minimalist calendar app for daily task management",
+        "Clean, clutter-free interface for focused scheduling",
+        "Local storage for offline access to events",
+        "iOS version in development"
+      ],
       liveUrl: "https://icalendify.vercel.app/",
       topPage: "",
       demoUrl: "",
@@ -213,8 +230,12 @@ export const ProjectsData = {
         "OOP,",
         "File I/O",
       ],
-      description:
-        "• Comprehensive school database management system\n• Organizes students, employees, and inventory data\n• Built with Java OOP principles (polymorphism, inheritance, encapsulation)\n• File I/O operations with .txt file storage\n• Developed in Apache NetBeans IDE",
+      description: [
+        "Comprehensive school database management system",
+        "Organizes students, employees, and inventory data",
+        "Built with Java OOP principles",
+        "File I/O operations with .txt file storage",
+      ],
       liveUrl: "",
       topPage: "",
       demoUrl: "",
@@ -233,8 +254,13 @@ export const ProjectsData = {
         "Firebase,",
         "Vercel",
       ],
-      description:
-        "• Modern portfolio website built with Next.js\n• Server-side rendering for enhanced SEO\n• Dynamic routing for optimized page load times\n• Firebase integration for real-time database functionality\n• Seamless content updates without redeployment",
+      description: [
+        "Portfolio website built with Next.js",
+        "Server-side rendering for enhanced SEO",
+        "Dynamic routing for optimized page load times",
+        "Firebase integration for real-time database functionality",
+        "Seamless content updates without redeployment"
+      ],
       liveUrl: "",
       topPage: "#top",
       demoUrl: "",
@@ -251,8 +277,13 @@ export const ProjectsData = {
         "Apache NetBeans,",
         "File I/O",
       ],
-      description:
-        "• Grocery store inventory management simulation\n• Add, save, and access food items with persistent storage\n• Search functionality by SKU or item name\n• Real-time inventory updates with intuitive Java interface\n• Data stored in structured .txt files",
+      description: [
+        "Grocery store inventory management simulation",
+        "Add, save, and access food items with persistent storage",
+        "Search functionality by SKU or item name",
+        "Real-time inventory updates",
+        "Data stored in structured .txt files"
+      ],
       liveUrl: "",
       topPage: "",
       demoUrl: "",
@@ -265,8 +296,11 @@ export const ProjectsData = {
         "Python,",
         "Tkinter",
       ],
-      description:
-        "• Python recreation of the classic TV game show\n• Strategic decision-making with luck-based gameplay\n• Sleek Tkinter GUI interface\n• Authentic game show experience\n• Engaging risk vs. reward mechanics",
+      description: [
+        "Python recreation of the classic TV game show",
+        "Strategic decision-making with luck-based gameplay",
+        "Engaging risk vs. reward mechanics"
+      ],
 
       liveUrl: "",
       topPage: "",

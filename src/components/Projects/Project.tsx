@@ -14,7 +14,7 @@ type ProjectProps = {
     name: string;
     image: StaticImageData;
     technologies: string[];
-    description: string;
+    description: string[];
     liveUrl: string;
     topPage: string;
     demoUrl: string;
@@ -81,9 +81,9 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
         <div
           className={`${styles.projects_container_project_right_description}`}
         >
-          {data.description.split("\n").map((line, index) => (
+          {data.description.map((point, index) => (
             <div key={index} className="description-line">
-              {line}
+              • {point}
             </div>
           ))}
         </div>
