@@ -202,9 +202,8 @@ const Hero: React.FC<HeroProps> = () => {
             <motion.span
               variants={textChildrenVariants}
               className={`${UI.normalText}`}
-            >
-              {heroData.about}
-            </motion.span>
+              dangerouslySetInnerHTML={{ __html: heroData.about }}
+            />
             <motion.div
               variants={textChildrenVariants}
               className={`${styles.hero_left_container_connect}`}

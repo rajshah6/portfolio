@@ -86,9 +86,8 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
             <div
               key={index}
               className={`${styles.projects_container_project_right_description_line}`}
-            >
-              • {point}
-            </div>
+              dangerouslySetInnerHTML={{ __html: `• ${point}` }}
+            />
           ))}
         </div>
         <div className={`${styles.projects_container_project_right_buttons}`}>

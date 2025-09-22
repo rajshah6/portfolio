@@ -17,7 +17,7 @@ export const heroData = {
   name: "Raj Shah",
   expertise: ["Software Developer"],
   about:
-    "I'm study Computer Science at the University of Waterloo. I love building things accessible to everyone. Let’s push boundaries and build groundbreaking experiences together, feel free to connect!",
+    "I'm study Computer Science at the <strong>University of Waterloo</strong>. I love building things accessible to everyone. Let's push boundaries and build groundbreaking experiences together, feel free to connect!",
 
 };
 
@@ -99,11 +99,11 @@ export const contactData = {
   cards: [
     {
       title: "Want to Collaborate?",
-      text: "I am open to discussing potential job opportunities or collaborations. Whether you're looking for a developer, designer, or team leader, I'm always excited to explore new projects and partnerships!",
+      text: "I am open to discussing potential <strong>job opportunities</strong> or <strong>collaborations</strong>. Whether you're looking for a <strong>developer</strong>, <strong>designer</strong>, or <strong>team leader</strong>, I'm always excited to explore new projects and partnerships!",
     },
     {
       title: "Let's Connect",
-      text: "Feel free to reach out to me via email or LinkedIn. I'm always open to new connections and conversations, so don't hesitate to drop me a message. I look forward to hearing from you soon!",
+      text: "Feel free to reach out to me via <strong>email</strong> or <strong>LinkedIn</strong>. I'm always open to new connections and conversations, so don't hesitate to drop me a message. I look forward to hearing from you soon!",
     },
   ],
   links: [
@@ -137,11 +137,11 @@ export const ProjectsData = {
         "Electron,", 
       ],
       description: [
-          "1st Place Winner (Martian Track, $4,000) at Hack the North 2025",
-          "Sketch on a 2D canvas to create agentic workflows automatically",
+          "<strong>1st Place Winner</strong> (Martian Track, <strong>$4,000</strong>) at <strong>Hack the North 2025</strong>",
+          "Sketch on a 2D canvas to create <strong>agentic workflows</strong> automatically",
           "Integrates with existing codebases to import and use your own functions",
-          "Enhanced with RAG for processing external documents and data sources",
-          "Connects to external APIs and can scrape data from various online sources"
+          "Enhanced with <strong>RAG</strong> for processing external documents and data sources",
+          "Connects to <strong>external APIs</strong> and can scrape data from various online sources"
         ],
       liveUrl: "",
       topPage: "",
@@ -162,9 +162,9 @@ export const ProjectsData = {
       ],
       description: [
           "AI-powered interview preparation platform",
-          "Generates personalized questions based on user's resume",
+          "Generates <strong>personalized questions</strong> based on user's resume",
           "Evaluates user's video responses and assesses them",
-          "Analyzes eye contact, confidence levels, and non-verbal cues",
+          "Analyzes <strong>eye contact</strong>, <strong>confidence levels</strong>, and <strong>non-verbal cues</strong>",
           "Stores performance benchmarks for each user"
         ],
       liveUrl: "https://preppal.work",
@@ -185,9 +185,9 @@ export const ProjectsData = {
       ],
       description: [
           "Wildfire detection and prediction system",
-          "Integrates with map data to show wildfire locations",
+          "Integrates with <strong>map data</strong> to show wildfire locations",
           "Affordable alternative to satellite-based solutions",
-          "Built for climate action (UN SDG #13)"
+          "Built for climate action (<strong>UN SDG #13</strong>)"
         ],
       liveUrl: "https://ember-eye.vercel.app/",
       topPage: "",
@@ -207,9 +207,9 @@ export const ProjectsData = {
         "LlamaCpp"
       ],
       description: [
-          "Privacy-first AI chatbot for Sun Life Financial company",
+          "Privacy-first AI chatbot for <strong>Sun Life Financial</strong> company",
           "Answers questions from structured financial PDFs",
-          "Ensures data privacy and security compliance"
+          "Ensures <strong>data privacy</strong> and security compliance"
         ],
       liveUrl: "",
       topPage: "",
@@ -226,9 +226,9 @@ export const ProjectsData = {
         "TypeScript,",
       ],
       description: [
-        "Interactive pathfinding algorithm visualizer",
-        "Supports Dijkstra's, A*, BFS, and DFS algorithms",
-        "Real-time animations with step-by-step analysis",
+        "<strong>Interactive</strong> pathfinding algorithm visualizer",
+        "Supports <strong>Dijkstra's</strong>, <strong>A*</strong>, <strong>BFS</strong>, and <strong>DFS</strong> algorithms",
+        "Real-time animations with <strong>step-by-step</strong> analysis",
         "Customizable scenarios and algorithm speed controls",
       ],
       liveUrl: "https://pathvisor.vercel.app",
@@ -270,7 +270,7 @@ export const ProjectsData = {
       description: [
         "Comprehensive school database management system",
         "Organizes students, employees, and inventory data",
-        "Built with Java OOP principles",
+        "Built with Java <strong>OOP</strong> principles",
         "File I/O operations with .txt file storage",
       ],
       liveUrl: "",

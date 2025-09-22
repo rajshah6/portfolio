@@ -90,3 +90,8 @@ ul,
 ol {
   list-style: none;
 }
+
+strong {
+  color: var(--tertiary-dark);
+  font-weight: var(--bold);
+}
