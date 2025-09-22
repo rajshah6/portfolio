@@ -13,6 +13,11 @@
     font-size: 7rem;
     font-weight: var(--light);
     z-index: 2;
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--tertiary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
   &_container {
     z-index: 2;
