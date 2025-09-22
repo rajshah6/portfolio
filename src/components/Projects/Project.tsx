@@ -78,9 +78,15 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
             </div>
           ))}
         </div>
-        <p className={`${styles.projects_container_project_right_description}`}>
-          {data.description}
-        </p>
+        <div
+          className={`${styles.projects_container_project_right_description}`}
+        >
+          {data.description.split("\n").map((line, index) => (
+            <div key={index} className="description-line">
+              {line}
+            </div>
+          ))}
+        </div>
         <div className={`${styles.projects_container_project_right_buttons}`}>
           {data.liveUrl && (
             <motion.a

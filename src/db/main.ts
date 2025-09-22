@@ -31,6 +31,8 @@ export const SkillsData = {
         "C",
         "C++",
         "C#",
+        "Go",
+        "Ruby",
         "TypeScript",
         "JavaScript",
         "HTML",
@@ -46,8 +48,12 @@ export const SkillsData = {
       title: "Frameworks & Libraries",
       skills: [
         "React",
-        "Svelte",
+        ".NET",
+        "LangChain",
+        "Electron",
+        "Rails",
         "Flask",
+        "Svelte",
         "Next.js",
         "Node.js",
         "Tailwind CSS",
@@ -67,6 +73,13 @@ export const SkillsData = {
       skills: [
         "Git",
         "Linux",
+        "Azure",
+        "AWS",
+        "Docker",
+        "Databricks",
+        "Martian",
+        "Postman",
+        "MongoDB",
         "OpenCV",
         "GCP",
         "Cohere API",
@@ -127,7 +140,7 @@ export const ProjectsData = {
         "Tailwind CSS"
       ],
       description: 
-          "PrepPal is an AI-powered interview buddy that helps students prepare for behavioural interviews by generating personalized questions based on the user's Resume. Using OpenAI's GPT API and Cohere API, it creates tailored questions and evaluates their video responses, saving all benchmarks in a SQLite database. The app also features a real-time video recording tool that analyzes the user's eye contact using OpenCV.",
+          "• AI-powered interview preparation platform\n• Generates personalized questions based on user's resume\n• Evaluates user's video responses and assesses them\n• Analyzes eye contact, confidence levels, and non-verbal cues\n• Stores performance benchmarks for each user",
       liveUrl: "https://preppal.work",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
@@ -146,7 +159,7 @@ export const ProjectsData = {
         "Tailwind CSS"
       ],
       description: 
-          "EmberEye is an AI-powered wildfire detection and prediction system designed as an affordable alternative to high-budget satellite solutions. By integrating NASA’s FIRMS API, OpenWeatherMap, and advanced AI models like Cohere and Gemini, it provides real-time wildfire tracking, predictive analysis, and automated data updates in a sleek, responsive React interface. With a scalable MongoDB backend, optimized data handling, and intelligent automation, EmberEye efficiently processes thousands of wildfire records while ensuring fast performance and accurate forecasting. Built for climate action (UN SDG #13), this project combines cutting-edge technology with real-world impact, offering a cost-effective, high-performance solution for wildfire monitoring.",
+          "• Wildfire detection and prediction system\n• Affordable alternative to satellite-based solutions\n• Built for climate action (UN SDG #13)",
       liveUrl: "https://ember-eye.vercel.app/",
       topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=xo4wJuv5IHE",
@@ -166,7 +179,7 @@ export const ProjectsData = {
         "Vercel",
       ],
       description:
-        "PathVisor is an interactive app that brings pathfinding algorithms to life! Designed for students, educators, and graph theory enthusiasts, it offers a hands-on way to explore Dijkstra’s Algorithm, A*, Breadth First Search, and Depth First Search. With its intuitive grid interface, real-time animations, and step-by-step analysis, PathVisor makes learning fun and accessible. Customize scenarios, experiment with algorithm speed, and gain deeper insights into the decision-making processes of these powerful tools.",
+        "• Interactive pathfinding algorithm visualizer\n• Supports Dijkstra's, A*, BFS, and DFS algorithms\n• Real-time animations with step-by-step analysis\n• Customizable scenarios and algorithm speed controls\n• Educational tool for students and graph theory enthusiasts",
       liveUrl: "https://pathvisor.vercel.app",
       topPage: "",
       demoUrl: "",
@@ -185,7 +198,7 @@ export const ProjectsData = {
         "Lifecycle",
       ],
       description:
-        "Most modern calendar apps are cluttered with features, making it hard to focus on your most important daily tasks. iCalendify is a minimalist calendar app designed to simplify your scheduling experience. With a clean interface and intuitive design, it lets you quickly note down the most important tasks each day, saving all events locally which can be accessed at any time. The app was built using vanilla JavaScript. iOS version coming soon—hence the name!",
+        "• Minimalist calendar app for daily task management\n• Clean, clutter-free interface for focused scheduling\n• Local storage for offline access to events\n• Built with vanilla JavaScript\n• iOS version in development",
       liveUrl: "https://icalendify.vercel.app/",
       topPage: "",
       demoUrl: "",
@@ -201,7 +214,7 @@ export const ProjectsData = {
         "File I/O",
       ],
       description:
-        "SchoolSphere is a robust database system designed to streamline the organization of students, employees, and school inventory. Built using Object-Oriented principles in Java, the system leverages polymorphism, inheritance, and encapsulation to provide a scalable and maintainable solution. Developed in Apache NetBeans, it efficiently handles data storage and retrieval using file I/O operations with .txt files for employee, student, and inventory records.",
+        "• Comprehensive school database management system\n• Organizes students, employees, and inventory data\n• Built with Java OOP principles (polymorphism, inheritance, encapsulation)\n• File I/O operations with .txt file storage\n• Developed in Apache NetBeans IDE",
       liveUrl: "",
       topPage: "",
       demoUrl: "",
@@ -221,31 +234,14 @@ export const ProjectsData = {
         "Vercel",
       ],
       description:
-        "Hey it looks like you're already here! The application utilizes Next.js for server-side rendering and dynamic routing, which significantly enhances SEO and reduces page load times. Additionally, I integrated Firebase to provide real-time database functionality, enabling seamless updates to portfolio content without the need for redeployment.",
+        "• Modern portfolio website built with Next.js\n• Server-side rendering for enhanced SEO\n• Dynamic routing for optimized page load times\n• Firebase integration for real-time database functionality\n• Seamless content updates without redeployment",
       liveUrl: "",
       topPage: "#top",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
     },
     
-    {
-      name: "Basic Calculator",
-      image: calcImg,
-      technologies: [
-        "JavaScript,",
-        "HTML,",
-        "CSS,",
-        "React,",
-        "Node.js,",
-        "Vercel",
-      ],
-      description:"This basic calculator app is a backend focuses tool for performing arithmetic operations including addition, subtraction, multiplication, and division. Featuring functionality similar to the iPhone calculator app pre-iOS 18, it supports formatted outputs and allows users to perform multiple calculations seamlessly, making it an ideal solution for everyday use.",
 
-      liveUrl: "https://calculator-react-fawn-ten.vercel.app/",
-      topPage: "",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/calculator-react",
-    },
 
     {
       name: "GroceryMaster",
@@ -256,7 +252,7 @@ export const ProjectsData = {
         "File I/O",
       ],
       description:
-        "GroceryMaster simulates a grocery store’s inventory system, enabling users to add, save, and access food items. The inventory is saved in a structured inventory.txt file, allowing for persistent and manual data access. With an intuitive Java interface, users can easily search, add, or retrieve items by SKU or name. The inventory updates dynamically upon button clicks, ensuring real-time accuracy.",
+        "• Grocery store inventory management simulation\n• Add, save, and access food items with persistent storage\n• Search functionality by SKU or item name\n• Real-time inventory updates with intuitive Java interface\n• Data stored in structured .txt files",
       liveUrl: "",
       topPage: "",
       demoUrl: "",
@@ -270,7 +266,7 @@ export const ProjectsData = {
         "Tkinter",
       ],
       description:
-        "Deal or No Deal is a classic game show that has captivated audiences worldwide. This Python application brings the excitement of the game to your computer, challenging you to make strategic decisions and test your luck. With a sleek Tkinter interface, the game offers an engaging experience that mirrors the thrill of the original show.",
+        "• Python recreation of the classic TV game show\n• Strategic decision-making with luck-based gameplay\n• Sleek Tkinter GUI interface\n• Authentic game show experience\n• Engaging risk vs. reward mechanics",
 
       liveUrl: "",
       topPage: "",
