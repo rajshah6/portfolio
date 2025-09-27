@@ -305,30 +305,6 @@ export const ProjectsData = {
       codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
       devpostUrl: "",
     },
-    
-
-
-    {
-      name: "GroceryMaster",
-      image: groceryImg,
-      technologies: [
-        "Java,",
-        "Apache NetBeans,",
-        "File I/O",
-      ],
-      description: [
-        "Grocery store inventory management simulation",
-        "Add, save, and access food items with persistent storage",
-        "Search functionality by SKU or item name",
-        "Real-time inventory updates",
-        "Data stored in structured .txt files"
-      ],
-      liveUrl: "",
-      topPage: "",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/grocery-master",
-      devpostUrl: "",
-    },
     {
       name: "Deal or No Deal", 
       image: dealornodealImg,

@@ -150,7 +150,7 @@ const Contact: React.FC<ContactProps> = () => {
               value={formData.name}
               onChange={handleInputChange}
               className={`${styles.contact_form_input}`}
-              placeholder="John Doe"
+              placeholder="Raj Shah"
               required
             />
           </motion.div>
@@ -169,7 +169,7 @@ const Contact: React.FC<ContactProps> = () => {
               value={formData.email}
               onChange={handleInputChange}
               className={`${styles.contact_form_input}`}
-              placeholder="john@example.com"
+              placeholder="you@example.com"
               required
             />
           </motion.div>
