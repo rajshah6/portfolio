@@ -282,7 +282,7 @@ const Contact: React.FC<ContactProps> = () => {
             value={formData.subject}
             onChange={handleInputChange}
             className={`${styles.contact_form_input}`}
-            placeholder="Let's collaborate!"
+            placeholder="Let's book a time to talk!"
             required
             disabled={isSubmitting || secondsLeft > 0}
           />
@@ -301,7 +301,7 @@ const Contact: React.FC<ContactProps> = () => {
             value={formData.message}
             onChange={handleInputChange}
             className={`${styles.contact_form_textarea}`}
-            placeholder="Tell me about LangSketch..."
+            placeholder="Tell me more about LangSketch..."
             rows={6}
             required
             disabled={isSubmitting || secondsLeft > 0}
