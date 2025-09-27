@@ -301,7 +301,7 @@ const Contact: React.FC<ContactProps> = () => {
             value={formData.message}
             onChange={handleInputChange}
             className={`${styles.contact_form_textarea}`}
-            placeholder="Tell me about your project..."
+            placeholder="Tell me about LangSketch..."
             rows={6}
             required
             disabled={isSubmitting || secondsLeft > 0}
