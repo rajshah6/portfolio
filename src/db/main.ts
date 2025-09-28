@@ -199,11 +199,10 @@ export const ProjectsData = {
       name: "SolGuard",
       image: solguardImg,
       technologies: [
-        "Python,",
+        "Ruby on Rails,",
         "LangChain,",
-        "ChromaDB,",
-        "FastAPI,",
-        "InstructorEmbeddings,",
+        "PostgresSQL,",
+        "OpenAI Embeddings,",
         "LlamaCpp"
       ],
       description: [
@@ -235,93 +234,6 @@ export const ProjectsData = {
       topPage: "",
       demoUrl: "",
       codeUrl: "https://github.com/rajshah6/pathfinding-visualizer",
-      devpostUrl: "",
-    },
-    {
-      name: "iCalendify",
-      image: icalendifyImg,
-      technologies: [
-        "JavaScript,",
-        "CSS,",
-        "HTML,",
-        "Vercel,",
-      ],
-      description: [
-        "Minimalist calendar app for daily task management",
-        "Clean, clutter-free interface for focused scheduling",
-        "Local storage for offline access to events",
-        "iOS version in development"
-      ],
-      liveUrl: "https://icalendify.vercel.app/",
-      topPage: "",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/iCalendify",
-      devpostUrl: "",
-    },
-    {
-      name: "SchoolSphere",
-      image: schoolsphereImg,
-      technologies: [
-        "Java,",
-        "Apache NetBeans,",
-        "OOP,",
-        "File I/O",
-      ],
-      description: [
-        "Comprehensive school database management system",
-        "Organizes students, employees, and inventory data",
-        "Built with Java <strong>OOP</strong> principles",
-        "File I/O operations with .txt file storage",
-      ],
-      liveUrl: "",
-      topPage: "",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/school-sphere",
-      devpostUrl: "",
-    },
-    {
-      name: "Personal Portfolio",
-      image: portfolioImg,
-      technologies: [
-        "TypeScript,",
-        "HTML,",
-        "CSS,",
-        "React,",
-        "Node.js,",
-        "Next.js,",
-        "Firebase,",
-        "Vercel",
-      ],
-      description: [
-        "Portfolio website built with Next.js",
-        "Server-side rendering for enhanced SEO",
-        "Dynamic routing for optimized page load times",
-        "Firebase integration for real-time database functionality",
-        "Seamless content updates without redeployment"
-      ],
-      liveUrl: "",
-      topPage: "#top",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/rajshah6.github.io",
-      devpostUrl: "",
-    },
-    {
-      name: "Deal or No Deal", 
-      image: dealornodealImg,
-      technologies: [
-        "Python,",
-        "Tkinter",
-      ],
-      description: [
-        "Python recreation of the classic TV game show",
-        "Strategic decision-making with luck-based gameplay",
-        "Engaging risk vs. reward mechanics"
-      ],
-
-      liveUrl: "",
-      topPage: "",
-      demoUrl: "",
-      codeUrl: "https://github.com/rajshah6/deal-or-no-deal",
       devpostUrl: "",
     },
   ],
