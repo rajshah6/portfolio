@@ -232,10 +232,10 @@
         // transform: rotate(-10deg);
         overflow: hidden;
         &_image {
-          transform: rotate(8deg) translate(0rem, 1.7rem) scale(1.2);
+          transform: rotate(8deg) translate(-14rem, -10rem) scale(0.7);
           object-fit: cover;
-          width: 100%;
-          height: 110%;
+          width: 160%;
+          height: 200%;
         
           //   filter: brightness(0.8);
         }
