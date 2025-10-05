@@ -201,7 +201,7 @@ export const ProjectsData = {
       technologies: [
         "Ruby on Rails,",
         "LangChain,",
-        "PostgresSQL,",
+        "PostgreSQL,",
         "OpenAI Embeddings,",
         "LlamaCpp"
       ],
