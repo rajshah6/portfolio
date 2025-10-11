@@ -161,7 +161,7 @@ export const ProjectsData = {
         "SQLAlchemy,", 
       ],
       description: [
-          "AI-powered interview preparation platform",
+          "AI-powered interview preparation platform (<strong>500+</strong> users)",
           "Generates <strong>personalized questions</strong> based on user's resume",
           "Evaluates user's video responses and assesses them",
           "Analyzes <strong>eye contact</strong>, <strong>confidence levels</strong>, and <strong>non-verbal cues</strong>",
