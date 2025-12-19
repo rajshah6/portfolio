@@ -10,6 +10,7 @@ import preppalImg from "../../public/images/preppal.png";
 import solguardImg from "../../public/images/solguard.png";
 import embereyeImg from "../../public/images/embereye.png";
 import langsketchImg from "../../public/images/langsketch.png";
+import assembledImg from "../../public/images/assembled.png";
 
 export const heroData = {
   img: myImage,
@@ -150,6 +151,29 @@ export const ProjectsData = {
       devpostUrl: "https://devpost.com/software/langsketch",
     },
     {
+      name: "assembl3D",
+      image: assembledImg,
+      technologies: [
+        "Node.js,", 
+        "Express,",
+        "Three.js,",
+        "React Three Fiber,",
+        "Bright Data,", 
+        "Reka", 
+      ],
+      description: [
+          "Transform static PDF assembly manuals into <strong>interactive 3D</strong> assembly guides",
+          "The system leverages web scraping, computer vision, and 3D rendering to extract furniture assembly instructions",
+          "Presents them in an immersive, <strong>step-by-step</strong> visualization environment",
+          "Ask the in-built <strong>chatbot</strong> any questions about the assembly process"
+        ],
+      liveUrl: "",
+      topPage: "",
+      demoUrl: "https://www.youtube.com/watch?v=c-3XQTTbKns",
+      codeUrl: "https://github.com/rajshah6/assembl3D",
+      devpostUrl: "https://devpost.com/software/assembl3d",
+    },
+    {
       name: "PrepPal",
       image: preppalImg,
       technologies: [
@@ -157,8 +181,9 @@ export const ProjectsData = {
         "Flask,",
         "GCP,", 
         "OpenCV,", 
+        "React,",
         "SQLite,", 
-        "SQLAlchemy,", 
+        "SQLAlchemy", 
       ],
       description: [
           "AI-powered interview preparation platform (<strong>500+</strong> users)",
@@ -179,9 +204,8 @@ export const ProjectsData = {
       technologies: [
         "Python,", 
         "Flask,",
-        "Gemini,", 
-        "Cohere,", 
-        "MongoDB,", 
+        "React,",
+        "MongoDB", 
       ],
       description: [
           "Wildfire detection and prediction system",
@@ -202,7 +226,7 @@ export const ProjectsData = {
         "Ruby on Rails,",
         "LangChain,",
         "PostgreSQL,",
-        "OpenAI Embeddings,",
+        "OpenAI,",
         "LlamaCpp"
       ],
       description: [
@@ -222,7 +246,7 @@ export const ProjectsData = {
       technologies: [
         "Svelte,",
         "Node.js,",
-        "TypeScript,",
+        "TypeScript",
       ],
       description: [
         "<strong>Interactive</strong> pathfinding algorithm visualizer",
