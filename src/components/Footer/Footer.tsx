@@ -27,6 +27,7 @@ const arrowVariants = {
 const Footer: React.FC<FooterProps> = () => {
   const { SoundActive } = useRecoilValue(soundState);
   const [playClick] = useSound("/sounds/box-click.wav", { volume: 0.5 });
+  const currentYear = new Date().getFullYear();
   return (
     <div className={`${styles.footer}`}>
       <div className={`${styles.footer_scroll}`}>
@@ -59,7 +60,7 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
       <div className={`${styles.footer_textContainer}`}>
         <Icon icon={"uiw:copyright"} />
-        <p>2025 Raj Shah. All Rights Reserved</p>
+        <p>{currentYear} Raj Shah. All Rights Reserved</p>
       </div>
     </div>
   );
