@@ -159,15 +159,16 @@ export const ProjectsData = {
         "FastAPI,",
         "Manim,",
         "Dedalus Labs,",
+        "ElevenLabs,",
         "Next.js,",
-        "SQLite,",
+        "SQLite",
       ],
       description: [
+        "<strong>Winner</strong> (Dedalus Labs Track) at <strong>TartanHacks 2026</strong>",
         "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
         "Ingests arXiv papers and uses <strong>multi-agent AI pipeline</strong> to identify key concepts and visual opportunities",
         "Generates <strong>Manim animations</strong> with four-stage quality validation for syntactic correctness and runtime stability",
         "Features an <strong>interactive scrollytelling interface</strong> with embedded animated visualizations",
-        "Integrates <strong>ElevenLabs voice synthesis</strong> and deployed with Modal for scalable rendering",
       ],
 
       liveUrl: "https://arxivisual.org",
