@@ -166,8 +166,8 @@ export const ProjectsData = {
       description: [
         "<strong>Winner</strong> (Dedalus Labs Track) at <strong>TartanHacks 2026</strong>",
         "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
-        "Ingests arXiv papers and uses <strong>multi-agent AI pipeline</strong> to identify key concepts and visual opportunities",
-        "Generates <strong>Manim animations</strong> with four-stage quality validation for syntactic correctness and runtime stability",
+        "Ingests arXiv papers and uses a <strong>multi-agent pipeline</strong> to create the visual story",
+        "Generates <strong>Manim animations</strong> with a four-stage quality validation process",
         "Features an <strong>interactive scrollytelling interface</strong> with embedded animated visualizations",
       ],
 
