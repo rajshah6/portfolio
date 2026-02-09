@@ -75,7 +75,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
               className={`${styles.projects_container_project_right_techContainer_tech}`}
               key={i}
             >
-              {tech}
+              {tech}{i < data.technologies.length - 1 ? ',' : ''}
             </div>
           ))}
         </div>
