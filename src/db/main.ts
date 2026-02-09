@@ -11,6 +11,7 @@ import solguardImg from "../../public/images/solguard.png";
 import embereyeImg from "../../public/images/embereye.png";
 import langsketchImg from "../../public/images/langsketch.png";
 import assembledImg from "../../public/images/assembled.png";
+import arxivisualImg from "../../public/images/arxivisual.png";
 
 export const heroData = {
   img: myImage,
@@ -135,7 +136,7 @@ export const ProjectsData = {
         "LangChain,", 
         "Martian,", 
         "Databricks,", 
-        "Electron,", 
+        "Electron", 
       ],
       description: [
           "<strong>1st Place Winner</strong> (Martian Track, <strong>$4,000</strong>) at <strong>Hack the North 2025</strong>",
@@ -149,6 +150,31 @@ export const ProjectsData = {
       demoUrl: "https://www.youtube.com/watch?v=3CpwQWJc918",
       codeUrl: "https://github.com/rajshah6/langsketch",
       devpostUrl: "https://devpost.com/software/langsketch",
+    },
+    {
+      name: "arXivisual",
+      image: arxivisualImg,
+      technologies: [
+        "Python,",
+        "FastAPI,",
+        "Manim,",
+        "Dedalus Labs,",
+        "Next.js,",
+        "SQLite,",
+      ],
+      description: [
+        "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
+        "Ingests arXiv papers and uses <strong>multi-agent AI pipeline</strong> to identify key concepts and visual opportunities",
+        "Generates <strong>Manim animations</strong> with four-stage quality validation for syntactic correctness and runtime stability",
+        "Features an <strong>interactive scrollytelling interface</strong> with embedded animated visualizations",
+        "Integrates <strong>ElevenLabs voice synthesis</strong> and deployed with Modal for scalable rendering",
+      ],
+
+      liveUrl: "https://arxivisual.org",
+      topPage: "",
+      demoUrl: "https://youtu.be/H2MnD8jXyrU",
+      codeUrl: "https://github.com/rajshah6/arXivisual",
+      devpostUrl: "",
     },
     {
       name: "assembl3D",
