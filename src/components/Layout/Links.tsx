@@ -105,6 +105,21 @@ const Links: React.FC<LinksProps> = () => {
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mdi:github"} />
       </motion.a>
+      <motion.a
+        variants={childVariants}
+        className={`${styles.links_link}`}
+        href="https://x.com/_rajshah6"
+        target="_blank"
+        aria-label="twitter"
+        onClick={() => {
+          if (SoundActive) {
+            playClick();
+          }
+          logEvent(getAnalytics(), `Twitter Side Links`);
+        }}
+      >
+        <Icon className={`${styles.links_link_icon}`} icon={"fa6-brands:x-twitter"} />
+      </motion.a>
       <motion.div
         variants={lineVariants}
         className={`${styles.links_line}`}

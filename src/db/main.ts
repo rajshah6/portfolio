@@ -121,6 +121,10 @@ export const contactData = {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/rshah9/",
     },
+    {
+      label: "Twitter",
+      url: "https://x.com/_rajshah6",
+    },
   ],
 };
 

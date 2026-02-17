@@ -159,6 +159,7 @@ const getConnectIconName = (label: string): string => {
   if (normalized.includes("email")) return "mdi:email-outline";
   if (normalized.includes("github")) return "mdi:github";
   if (normalized.includes("linkedin")) return "mdi:linkedin";
+  if (normalized.includes("twitter")) return "fa6-brands:x-twitter";
   return "mdi:link-variant";
 };
 const Hero: React.FC<HeroProps> = () => {

@@ -183,6 +183,20 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
             >
               <Icon icon={"mi:email"} />
             </a>
+            <a
+              className={`${styles.navbar_right_links_container_link}`}
+              href="https://x.com/_rajshah6"
+              target="_blank"
+              aria-label="twitter"
+              onClick={() => {
+                if (SoundActive) {
+                  playClick();
+                }
+                logEvent(getAnalytics(), `Twitter Navbar Links`);
+              }}
+            >
+              <Icon icon={"fa6-brands:x-twitter"} />
+            </a>
           </div>
           <div className={`${styles.navbar_right_links_line}`}></div>
         </div>
