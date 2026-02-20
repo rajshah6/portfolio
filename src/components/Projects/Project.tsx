@@ -16,10 +16,10 @@ type ProjectProps = {
     technologies: string[];
     description: string[];
     liveUrl: string;
-    topPage: string;
     demoUrl: string;
     codeUrl: string;
     devpostUrl: string;
+    twitterUrl?: string;
   };
   index: number;
 };
@@ -116,31 +116,6 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
               Live
             </motion.a>
           )}
-          {data.topPage && (
-            <motion.a
-              onClick={() => {
-                if (SoundActive) {
-                  playClick();
-                }
-                logEvent(getAnalytics(), `${data.name} Live`);
-              }}
-              onHoverStart={() => {
-                if (SoundActive) {
-                  playPop();
-                }
-              }}
-              whileHover={{
-                boxShadow: "0.5rem 0.5rem 0px var(--secondary)",
-                transform: "translate(-0.5rem, -0.5rem)",
-              }}
-              className={`${styles.projects_container_project_right_buttons_btn}`}
-              href={data.topPage}
-              target=""
-            >
-              <Icon icon={"ph:arrow-square-out-light"} />
-              Live
-            </motion.a>
-          )}
           {data.demoUrl && (
             <motion.a
               onClick={() => {
@@ -214,6 +189,31 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
             >
               <Icon icon={"simple-icons:devpost"} />
               Devpost
+            </motion.a>
+          )}
+          {data.twitterUrl && (
+            <motion.a
+              onClick={() => {
+                if (SoundActive) {
+                  playClick();
+                }
+                logEvent(getAnalytics(), `${data.name} Twitter`);
+              }}
+              onHoverStart={() => {
+                if (SoundActive) {
+                  playPop();
+                }
+              }}
+              whileHover={{
+                boxShadow: "0.5rem 0.5rem 0px var(--secondary)",
+                transform: "translate(-0.5rem, -0.5rem)",
+              }}
+              className={`${styles.projects_container_project_right_buttons_btn}`}
+              href={data.twitterUrl}
+              target="_blank"
+            >
+              <Icon icon={"mdi:twitter"} />
+              Twitter
             </motion.a>
           )}
         </div>

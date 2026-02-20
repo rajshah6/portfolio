@@ -132,15 +132,38 @@ export const ProjectsData = {
   title: "Projects",
   Projects: [
     {
+      name: "arXivisual",
+      image: arxivisualImg,
+      technologies: [
+        "FastAPI",
+        "Next.js",
+        "Dedalus SDK",
+        "ElevenLabs",
+        "Cloudflare",
+        "PostgreSQL",
+      ],
+      description: [
+        "<strong>Winner</strong> at <strong>TartanHacks 2026</strong>",
+        "<a href='https://x.com/_nikhilhooda/status/2023808728177213633?s=20' target='_blank'><strong>7,000+ users</strong> in &lt;24 hours</a>, <strong>100k+ views</strong> across all platforms &amp; <strong>100+ stars</strong> on GitHub",
+        "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
+        "Ingests arXiv papers and uses a <strong>multi-agent pipeline</strong> to create the visual story",
+        "Generates <strong>Manim animations</strong> with a four-stage quality validation process",
+      ],
+      liveUrl: "https://arxivisual.org",
+      demoUrl: "https://www.youtube.com/watch?v=2PncIouibG8&",
+      codeUrl: "https://github.com/rajshah6/arXivisual",
+      devpostUrl: "",
+      twitterUrl: "https://x.com/_nikhilhooda/status/2023808728177213633?s=20",
+    },
+    {
       name: "LangSketch",
       image: langsketchImg,
       technologies: [
-        "Python",
         "FastAPI",
+        "Electron",
         "LangChain",
         "Martian",
-        "Databricks",
-        "Electron",
+        "Databricks"
       ],
       description: [
           "<strong>1st Place Winner</strong> (Martian Track, <strong>$4,000</strong>) at <strong>Hack the North 2025</strong>",
@@ -149,37 +172,9 @@ export const ProjectsData = {
           "Enhanced with <strong>RAG</strong> for processing external documents and data sources",
           "Connects to <strong>external APIs</strong> and can scrape data from various online sources"
         ],
-      liveUrl: "",
-      topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=3CpwQWJc918",
       codeUrl: "https://github.com/rajshah6/langsketch",
       devpostUrl: "https://devpost.com/software/langsketch",
-    },
-    {
-      name: "arXivisual",
-      image: arxivisualImg,
-      technologies: [
-        "Python",
-        "FastAPI",
-        "Manim",
-        "Dedalus Labs",
-        "ElevenLabs",
-        "Next.js",
-        "SQLite",
-      ],
-      description: [
-        "<strong>Winner</strong> (Dedalus Labs Track) at <strong>TartanHacks 2026</strong>",
-        "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
-        "Ingests arXiv papers and uses a <strong>multi-agent pipeline</strong> to create the visual story",
-        "Generates <strong>Manim animations</strong> with a four-stage quality validation process",
-        "Features an <strong>interactive scrollytelling interface</strong> with embedded animated visualizations",
-      ],
-
-      liveUrl: "https://arxivisual.org",
-      topPage: "",
-      demoUrl: "https://youtu.be/H2MnD8jXyrU",
-      codeUrl: "https://github.com/rajshah6/arXivisual",
-      devpostUrl: "",
     },
     {
       name: "assembl3D",
@@ -198,8 +193,6 @@ export const ProjectsData = {
           "Presents them in an immersive, <strong>step-by-step</strong> visualization environment",
           "Ask the in-built <strong>chatbot</strong> any questions about the assembly process"
         ],
-      liveUrl: "",
-      topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=c-3XQTTbKns",
       codeUrl: "https://github.com/rajshah6/assembl3D",
       devpostUrl: "https://devpost.com/software/assembl3d",
@@ -208,7 +201,6 @@ export const ProjectsData = {
       name: "PrepPal",
       image: preppalImg,
       technologies: [
-        "Python",
         "Flask",
         "GCP",
         "OpenCV",
@@ -224,7 +216,6 @@ export const ProjectsData = {
           "Stores performance benchmarks for each user"
         ],
       liveUrl: "https://preppal.work",
-      topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=0uulnpFgpyc",
       codeUrl: "https://github.com/rajshah6/preppal",
       devpostUrl: "https://dorahacks.io/buidl/21711",
@@ -233,7 +224,6 @@ export const ProjectsData = {
       name: "EmberEye",
       image: embereyeImg,
       technologies: [
-        "Python",
         "Flask",
         "React",
         "MongoDB",
@@ -245,7 +235,6 @@ export const ProjectsData = {
           "Built for climate action (<strong>UN SDG #13</strong>)"
         ],
       liveUrl: "https://ember-eye.vercel.app/",
-      topPage: "",
       demoUrl: "https://www.youtube.com/watch?v=xo4wJuv5IHE",
       codeUrl: "https://github.com/rajshah6/EmberEye",
       devpostUrl: "https://devpost.com/software/firecheck-s1tlf8",
@@ -265,9 +254,6 @@ export const ProjectsData = {
           "Answers questions from structured financial PDFs",
           "Ensures <strong>data privacy</strong> and security compliance"
         ],
-      liveUrl: "",
-      topPage: "",
-      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/privateGPT",
       devpostUrl: "https://devpost.com/software/sunlife-chat-bot",
     },
@@ -286,10 +272,7 @@ export const ProjectsData = {
         "Customizable scenarios and algorithm speed controls",
       ],
       liveUrl: "https://pathvisor.vercel.app",
-      topPage: "",
-      demoUrl: "",
       codeUrl: "https://github.com/rajshah6/pathfinding-visualizer",
-      devpostUrl: "",
     },
   ],
 };
