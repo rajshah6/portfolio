@@ -15,10 +15,10 @@ type ProjectProps = {
     image: StaticImageData;
     technologies: string[];
     description: string[];
-    liveUrl: string;
-    demoUrl: string;
-    codeUrl: string;
-    devpostUrl: string;
+    liveUrl?: string;
+    demoUrl?: string;
+    codeUrl?: string;
+    devpostUrl?: string;
     twitterUrl?: string;
   };
   index: number;
