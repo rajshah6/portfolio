@@ -147,7 +147,7 @@ export const ProjectsData = {
         "<a href='https://x.com/_nikhilhooda/status/2023808728177213633?s=20' target='_blank'><strong>7,000+ users</strong> in &lt;24 hours</a>, <strong>100k+ views</strong> across all platforms &amp; <strong>100+ stars</strong> on GitHub",
         "Transforms research papers into <strong>visual stories</strong> with 3Blue1Brown-style <strong>animated explanations</strong>",
         "Ingests arXiv papers and uses a <strong>multi-agent pipeline</strong> to create the visual story",
-        "Generates <strong>Manim animations</strong> with a four-stage quality validation process",
+        "Generates <strong>Manim animations</strong> with a four-stage quality validation process (AST parsing, spatial heuristics, semantic scoring, and runtime compilation tests)",
       ],
       liveUrl: "https://arxivisual.org",
       demoUrl: "https://www.youtube.com/watch?v=2PncIouibG8&",
