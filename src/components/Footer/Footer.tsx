@@ -60,7 +60,7 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
       <div className={`${styles.footer_textContainer}`}>
         <Icon icon={"uiw:copyright"} />
-        <p>{currentYear} Raj Shah. All Rights Reserved</p>
+        <p>{currentYear} Raj Shah.</p>
       </div>
     </div>
   );
